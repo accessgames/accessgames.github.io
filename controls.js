@@ -22,11 +22,6 @@ function addCss(){
         justify-content: center
     }
     
-    button.in-game-button svg {
-        pointer-events: none;
-        margin-right: .625rem;
-        display: inline-block
-    }
     
     button.in-game-button img {
         pointer-events: none;
