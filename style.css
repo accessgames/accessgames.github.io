@@ -79,3 +79,6 @@ transition:0.3sec
             visibility: visible;
             opacity: 1;
         }
+.logo{
+  float: right;
+}
