@@ -209,7 +209,7 @@ function addBtnHome() {
     e.className = 'in-game-button';
     e.id = 'inGame';
     e.innerHTML = `
-      <img src="https://accessgames.github.io/accessgameslogo.png" width="150px" height="60px" alt="Go back to ACCESS GAMES">`;
+      <img src="https://accessgames.github.io/accessgameslogo.png" width="150px" height="60px" alt="Go to Access Games">`;
     document.getElementsByTagName('body')[0].appendChild(e);
   }
 }
