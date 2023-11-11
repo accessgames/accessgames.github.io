@@ -1,5 +1,5 @@
 function search_games() { 
-	let input = document.getElementById('searchbar').value 
+	let input = document.getElementById('content').value 
 	input=input.toLowerCase(); 
 	let x = document.getElementsByClassName('content'); 
 	
