@@ -27,7 +27,8 @@ h1 {
 body,
 .more-snow {
   &:before,
-  &:after {
+  &:after
+  &z-index: -1;
     content: "";
     position: fixed;
     top: -3000%;
