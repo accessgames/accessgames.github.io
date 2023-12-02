@@ -20,6 +20,7 @@ h1 {
   margin: 0;
   line-height: 1;
   transform: translateY(-50%);
+  z-index: 100;
   z-index: 1;
   text-shadow: 0 2px 10px rgba(black,0.8);
 }
@@ -27,8 +28,7 @@ h1 {
 body,
 .more-snow {
   &:before,
-  &:after
-  &z-index: -1;
+  &:after {
     content: "";
     position: fixed;
     top: -3000%;
@@ -74,7 +74,6 @@ body {
     animation-duration: 300s;
   }
 }
-
 @-webkit-keyframes MOVE-BG {
   from {
     transform: translateY(0);
@@ -181,4 +180,4 @@ body {
    input[type=text]:focus { 
      width: 26%; 
    } 
- 
+
