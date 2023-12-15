@@ -180,4 +180,34 @@ body {
    input[type=text]:focus { 
      width: 26%; 
    } 
+   .navbar {
+      background-color: #3498db; /* Set your desired background color */
+      position: relative;
+      height: 50px; /* Set your desired height */
+      overflow: hidden;
+    }
+
+    .navbar::before {
+      content: "";
+      position: absolute;
+      top: -20px; /* Adjust this value to control the height of the trapezoid */
+      left: 0;
+      right: 0;
+      height: 40px; /* Adjust this value to control the height of the trapezoid */
+      background-color: #3498db; /* Same as navbar background color */
+      clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
+    }
+
+    .nav-link {
+      float: left;
+      display: block;
+      color: #fff; /* Set your desired text color */
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .nav-link:hover {
+      background-color: #2980b9; /* Set your desired hover background color */
+    }
 
