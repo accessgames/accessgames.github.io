@@ -212,4 +212,9 @@ body {
     .nav-link:hover {
       background-color: #2980b9; /* Set your desired hover background color */
     }
+    
+.nav-link-container {
+      text-align: center;
+    }
+
 
