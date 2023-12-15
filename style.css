@@ -185,6 +185,8 @@ body {
       position: relative;
       height: 50px; /* Set your desired height */
       overflow: hidden;
+       margin: 0 auto; 
+      width: 50%; 
     }
 
     .navbar::before {
@@ -193,7 +195,7 @@ body {
       top: -20px; /* Adjust this value to control the height of the trapezoid */
       left: 0;
       right: 0;
-      height: 40px; /* Adjust this value to control the height of the trapezoid */
+      height: 20px; /* Adjust this value to control the height of the trapezoid */
       background-color: #3498db; /* Same as navbar background color */
       clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
     }
