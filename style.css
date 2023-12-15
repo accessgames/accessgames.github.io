@@ -201,10 +201,8 @@ body {
     }
 
     .nav-link {
-      float: left;
-      display: block;
+      display: inline-block;
       color: #fff; /* Set your desired text color */
-      text-align: center;
       padding: 14px 16px;
       text-decoration: none;
     }
